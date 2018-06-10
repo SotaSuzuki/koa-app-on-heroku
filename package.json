@@ -1,0 +1,18 @@
+{
+  "name": "node-sample",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "SotaSuzuki <3.3sota.suzuki@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon --experimental-modules app --watch"
+  },
+  "dependencies": {
+    "koa": "^2.5.1",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
