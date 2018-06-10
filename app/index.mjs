@@ -34,6 +34,10 @@ app.use(async (ctx, next) => {
   console.log(`${ctx.method} ${ctx.url} - ${ms}`)
 })
 
+app.use(async (ctx) => {
+  ctx.body = 'Hello, world!'
+})
+
 // Use routes
 app
   .use(router.routes())
